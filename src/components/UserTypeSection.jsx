@@ -99,9 +99,9 @@ const UserTypeSection = () => {
                   className="w-full"
                   onClick={() => {
                     if (userType.title === "Students") {
-                      window.location.href = '/student-auth';
+                      window.location.href = '/StudentAuth';
                     } else if (userType.title === "Stall Owners") {
-                      window.location.href = '/stall-owner-auth';
+                      window.location.href = '/StallOwnerAuth';
                     }
                   }}
                 >
