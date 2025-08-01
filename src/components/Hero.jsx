@@ -72,14 +72,14 @@ const Hero = () => {
             {/* Floating cards for visual appeal */}
             <div className="absolute -top-4 -right-4 bg-white rounded-md shadow-sm p-3 border border-gray-200">
               <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 rounded-full bg-secondary-500"></div>
+                <div className="w-3 h-3 rounded-full bg-emerald-500"></div>
                 <span className="text-sm font-medium">Order Ready!</span>
               </div>
             </div>
             
             <div className="absolute -bottom-4 -left-4 bg-white rounded-md shadow-sm p-3 border border-gray-200">
               <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 rounded-full bg-primary-600"></div>
+                <div className="w-3 h-3 rounded-full bg-orange-500"></div>
                 <span className="text-sm font-medium">5 min pickup</span>
               </div>
             </div>
